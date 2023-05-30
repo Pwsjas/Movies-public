@@ -1,0 +1,57 @@
+.main-banner-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+    height: 75%;
+    width: 100%;
+    margin-top: -60px;
+
+    img {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        
+        cursor: pointer;
+    }
+
+    .main-banner-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 30%;
+        gap: 32px;
+        padding: 16px;
+        z-index: 1;
+        background-color: rgba(0, 4, 27, 0.5);
+        
+        h1 {
+            font-size: 64px;
+            cursor: pointer;
+        }
+
+        p {
+            color: white;
+            font-size: 16px;
+        }
+
+        .main-banner-genres {
+            font-size: 32px;
+        }
+
+        button {
+            color: white;
+            background-color: rgb(0, 4, 27);
+            width: 120px;
+            height: 2rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            box-shadow: 0px 0px 16px 4px rgba(0, 225, 255, 0.3);
+        }
+    }
+}

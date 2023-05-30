@@ -1,0 +1,51 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 20%;
+    min-width: 20%;
+
+    .title {
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 8px;
+        padding-left: 10%;
+        max-width: 70%;
+        font: 800 16px Arial;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke: 1px;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
+
+.hovered {
+    cursor: pointer;
+    box-shadow: 0px 0px 16px 4px rgba(0, 225, 255, 0.3);
+}
+
+.filter-green {
+    filter: invert(77%) sepia(34%) saturate(5736%) hue-rotate(72deg) brightness(102%) contrast(104%);
+}
+
+.my-list-panel {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 8px;
+    padding-right: 12%;
+    width: 32px;
+    height: 32px;
+    z-index: 2;
+}
+
+.invis {
+    visibility: hidden;
+}

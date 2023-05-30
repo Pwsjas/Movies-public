@@ -1,0 +1,97 @@
+.moviePage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+
+    p {
+        color: white;
+    }
+
+    .videos {
+        display: flex;
+        flex-direction: row;
+
+        width: 100%;
+    }
+
+    .providers {
+        display: flex;
+
+        width: 100%;
+    }
+    
+    .movie-main-content-container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        margin-top: -60px;
+        min-height: 70%;
+
+        h1, p, button {
+            margin: 1rem;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        .moviePage-backdrop {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        .play-button {
+            background-color: rgb(43, 155, 184);
+            padding: 1rem 2rem 1rem 2rem;
+        }
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+        width: 32px;
+        height: 32px;
+        margin: 0.5rem;
+    }
+}
+
+.forward {
+    z-index: 1;
+    background-color: rgba(0, 4, 27, 0.5);
+    width: 30%;
+    height: 100%;
+    padding: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.filter {
+    filter: invert(54%) sepia(48%) saturate(632%) hue-rotate(145deg) brightness(88%) contrast(91%);
+}
+
+.filter-green {
+    filter: invert(77%) sepia(34%) saturate(5736%) hue-rotate(72deg) brightness(102%) contrast(104%);
+}
+
+.filter-red {
+    filter: invert(18%) sepia(73%) saturate(5443%) hue-rotate(355deg) brightness(98%) contrast(89%);
+}
+
+.my-list {
+    cursor: pointer;
+}

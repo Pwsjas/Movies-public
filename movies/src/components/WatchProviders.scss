@@ -1,0 +1,35 @@
+.provider-container {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 16px;
+    width: 60%;
+    justify-content: space-between;
+
+    .service-type {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+        .provider {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin: 0.5rem;
+    
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+}
+
+.col {
+    padding: 1rem;
+    margin-left: calc(5% + 32px);
+    margin-right: calc(5% + 32px);
+    width: 100%;
+    margin-top: 1rem;
+    background-color: rgba(0, 7, 46, 0.5);
+    box-shadow: 4px 4px 4px rgba(0, 7, 46, 0.8);
+}
